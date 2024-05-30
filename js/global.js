@@ -1,13 +1,3 @@
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*This is main JS file that contains custom style rules used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: "Modesto"*/
-/* Version: 1.0 Initial Release*/
-/* Build Date: 06-02-2016*/
-/* Author: LionStyle*/
-/* Website: http://moonart.net.ua/modesto/ 
-/* Copyright: (C) 2016 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 
 /*--------------------------------------------------------*/
 /* TABLE OF CONTENTS: */
@@ -22,6 +12,16 @@
 /* 08 - buttons, clicks, hovers */
 
 
+// scroll to top 
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scroll to top
+    document.getElementById('scrollToTop').addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
 $(function() {
 
     "use strict";

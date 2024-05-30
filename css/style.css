@@ -8,6 +8,43 @@ body{
   left: 54px;
 }
 
+/* Whatsapp Icon */
+
+.fixed-icon{
+  z-index: 9;
+  position: fixed;
+  bottom: 16px;
+  right: 93px;
+  cursor: pointer;
+ 
+}
+
+.fixed-icon img {
+  width: 52px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%;
+   -webkit-box-shadow: 0px 0px 14px 0px #1baa27;
+}
+/* scrol to top button */
+
+.scroll-top {
+  z-index: 9;
+  position: fixed;
+  bottom: 26px;
+right: 28px;
+
+  cursor: pointer;
+  background-color: #880808;
+  border-radius: 70%;
+  padding: 14px 20px;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+   -webkit-box-shadow: 0px 0px 14px 0px #880808;
+}
+
+.scroll-top:hover {
+  background-color: #0056b3;
+}
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
