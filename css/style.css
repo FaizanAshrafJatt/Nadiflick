@@ -754,7 +754,7 @@ footer .follow{margin-left: 10px;}
 .price-wrapper .price-icon{position: relative; display: block; width: 130px; height: 130px; margin: 0 auto; background-color: #fff; border-radius: 50%; box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.07); margin-bottom: -65px; z-index: 1;}
 .price-wrapper .price-icon img{position: absolute; left: 50%; top: 50%; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .price-wrapper .price-icon:before{content: ""; position: absolute; left: 50%; bottom: -30px; width: 1px; height: 30px; background-color: #e3e3e3; z-index: 1}
-.price-wrapper article{background-color: #fff; padding: 115px 45px 75px 45px;}
+.price-wrapper article{background-color: #fff; padding: 115px 16px 75px 16px;}
 .price{font-size: 42px; line-height: 42px; font-weight: 700; text-transform: uppercase; color: #222;}
 .price sup{font-size: 24px;}
 .price-wrapper ul li{margin-bottom: 8px;}
@@ -768,8 +768,9 @@ footer .follow{margin-left: 10px;}
 /*PRICE*/
 
 /*CLIENT*/
+ 
 .client-item{display: block; border: 1px solid rgb(227, 227, 227); box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.07); background-color: #fff; -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1);}
-.client-item img{display: block; width: 100%;}
+.client-item img{display: block; width: 136px; height: 54px;}
 @media (min-width: 1200px) {
   .client-item:hover{-ms-transform: scale(0.9); -webkit-transform: scale(0.9); transform: scale(0.9);}
 }
@@ -1136,9 +1137,10 @@ _:-ms-fullscreen, :root .quote .quote-nav.active{opacity: 1;}
 
 .bg-img-1 {background-image: url(../img/bg-1.jpg);}
 .bg-img-2 {background-image: url(../img/bg-2.jpg);}
-.bg-img-3 {background-image: url(../img/banner-4.png);}
-.bg-img-4 {background-image: url(../img/banner-5.png);}
-.bg-img-5 {background-image: url(../img/banner-6.png);}
+.bg-img-3 {background-image: url(../img/banner-n2.jpg);}
+
+.bg-img-4 {background-image: url(../img/banner-n1.jpg);}
+.bg-img-5 {background-image: url(../img/banner-n4.jpg);}
 .bg-img-6 {background-image: url(../img/bg-3.jpg);}
 
 .bg-img-7 {background-image: url(../img/related_post_1.jpg);}
